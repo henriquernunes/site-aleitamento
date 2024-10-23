@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    flex-direction: row; /* Alinha a logo e o título lado a lado */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 20px;
+  }
+  
+  .header-img {
+    margin-right: 20px; /* Espaço entre a logo e o título */
+  }
+  
+  .logo {
+    width: 100px; /* Ajuste o tamanho da logo conforme necessário */
+    height: auto;
+  }
+  
+  .header-title {
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-weight: bold;
+    text-align: left; /* Mantém o texto alinhado à esquerda */
+  }
+  

@@ -1,0 +1,13 @@
+body {
+    margin: 0 10px 0 10px;
+}
+
+.card-container {
+    height: 20vh;
+}
+
+.card-image {
+    height: 15vh;
+    max-width: 100%;
+    width: 100%;
+}
