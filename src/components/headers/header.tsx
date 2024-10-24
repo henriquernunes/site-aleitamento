@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css';
-import Logo from '../../assets/Logo uepa - preto.png';
+import Logo from '../../assets/Logo uepa - branco.png';
+import RM from '../../assets/LOGO-PMRM-PERIODO-ELEITORAL-2024-II.png';
 
 const Header: React.FC = () => {
   return (
@@ -16,4 +17,3 @@ const Header: React.FC = () => {
 }
 
 export default Header;
-    
