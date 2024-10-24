@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/site-aleitamento/static/css/main.0d6beffe.css",
-    "main.js": "/site-aleitamento/static/js/main.21b9fd40.js",
+    "main.css": "/site-aleitamento/static/css/main.e894fd57.css",
+    "main.js": "/site-aleitamento/static/js/main.68c80ca2.js",
     "static/js/453.21e37a2c.chunk.js": "/site-aleitamento/static/js/453.21e37a2c.chunk.js",
-    "static/media/Logo uepa - preto.png": "/site-aleitamento/static/media/Logo uepa - preto.8354b85e14aecd964d2a.png",
+    "static/media/Logo uepa - branco.png": "/site-aleitamento/static/media/Logo uepa - branco.a5df04e520b3395578ae.png",
     "static/media/002aa288-1d72-48f2-a5a3-72659677082d.jpg": "/site-aleitamento/static/media/002aa288-1d72-48f2-a5a3-72659677082d.e825d01242f56d7f0334.jpg",
     "index.html": "/site-aleitamento/index.html",
-    "main.0d6beffe.css.map": "/site-aleitamento/static/css/main.0d6beffe.css.map",
-    "main.21b9fd40.js.map": "/site-aleitamento/static/js/main.21b9fd40.js.map",
+    "main.e894fd57.css.map": "/site-aleitamento/static/css/main.e894fd57.css.map",
+    "main.68c80ca2.js.map": "/site-aleitamento/static/js/main.68c80ca2.js.map",
     "453.21e37a2c.chunk.js.map": "/site-aleitamento/static/js/453.21e37a2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d6beffe.css",
-    "static/js/main.21b9fd40.js"
+    "static/css/main.e894fd57.css",
+    "static/js/main.68c80ca2.js"
   ]
 }
