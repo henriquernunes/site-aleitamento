@@ -22,7 +22,8 @@
     padding: 5px;
 }
 
-.card-p, .card-list {
+.card-p,
+.card-list {
     text-align: justify;
     font-family: 'Arima', sans-serif;
 }
@@ -33,4 +34,14 @@
     font-weight: bold;
     text-align: center;
     margin-top: 30px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    height: 100%;
+    /* Define a altura do contêiner, se necessário */
 }

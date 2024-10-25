@@ -171,15 +171,17 @@ const Card: React.FC = () => {
           <p className='card-p'>O ritmo de cada bebê deve ser respeitado.</p>
           <p className='card-p'>A seguir um vídeo explicando como essa pega deve ser feita corretamente. O vídeo é do canal “Grão de gente” disponível também no YouTube.
           </p>
-          <iframe
-            width="410"
-            height="233"
-            src="https://www.youtube.com/embed/kBEXkGnoHRg"
-            title="Pega certa"
-            style={{ border: 'none' }}  // Usando estilo CSS para remover a borda
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          ></iframe>
+          <div className='video-container'>
+            <iframe
+              width="380"
+              height="220"
+              src="https://www.youtube.com/embed/kBEXkGnoHRg"
+              title="Pega certa"
+              style={{ border: 'none' }}  // Usando estilo CSS para remover a borda
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
         </section>
 
 
