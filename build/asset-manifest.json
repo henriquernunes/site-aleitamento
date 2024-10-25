@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/site-aleitamento/static/css/main.78bd7931.css",
+    "main.js": "/site-aleitamento/static/js/main.9fdb2142.js",
+    "static/media/Logo uepa - branco.png": "/site-aleitamento/static/media/Logo uepa - branco.a5df04e520b3395578ae.png",
+    "static/media/002aa288-1d72-48f2-a5a3-72659677082d.jpg": "/site-aleitamento/static/media/002aa288-1d72-48f2-a5a3-72659677082d.e825d01242f56d7f0334.jpg",
+    "index.html": "/site-aleitamento/index.html",
+    "main.78bd7931.css.map": "/site-aleitamento/static/css/main.78bd7931.css.map",
+    "main.9fdb2142.js.map": "/site-aleitamento/static/js/main.9fdb2142.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78bd7931.css",
+    "static/js/main.9fdb2142.js"
+  ]
+}
