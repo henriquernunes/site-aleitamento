@@ -19,7 +19,8 @@
     background-color: #daadc2;
     border-radius: 5px;
     border-color: 3px solid black;
-    padding: 5px;
+    padding: 7px;
+    margin-top: 20px;
 }
 
 .card-p,
@@ -27,6 +28,19 @@
     text-align: justify;
     font-family: 'Arima', sans-serif;
     hyphens: auto;
+}
+
+.card-list1 {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: justify;
+    font-family: 'Arima', sans-serif;
+    hyphens: auto;
+}
+
+.card-list1 li {
+    margin-bottom: 16px;
 }
 
 .card-title3 {
@@ -43,4 +57,13 @@
     align-items: center;
     height: 100%;
     margin-bottom: 30px;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-mastite {
+    width: 60%;
 }
