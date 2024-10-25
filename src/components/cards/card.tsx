@@ -22,20 +22,6 @@ const Card: React.FC = () => {
           </div>
         </section>
 
-<<<<<<< HEAD
-        <section className='card-section3'>
-          <h2 className='card-title2'>O ALEITAMENTO MATERNO COSTUMA SER CLASSIFICADO EM SEIS TIPOS</h2>
-          <div>
-            <p className='card-p'><b>• Aleitamento materno exclusivo:</b> a criança recebe apenas leite materno, seja direto da mama, ordenhado ou de outra fonte, sem consumir outros líquidos ou sólidos, exceto por gotas ou xaropes com vitaminas, sais de reidratação, suplementos minerais ou medicamentos.</p>
-          </div>
-          <div>
-            <p className='card-p'><b>• Aleitamento materno predominante:</b> além do leite materno, a criança também recebe água, bebidas à base de água (como chás, infusões, água adocicada), sucos de frutas ou líquidos rituais.</p>
-          </div>
-          <div>
-            <p className='card-p'><b>• Aleitamento materno:</b> a criança é alimentada com leite materno, direto da mama ou ordenhado, podendo ou não receber outros alimentos.</p>
-          </div>
-        </section>
-=======
         <section className='card-section2'>
           <h2 className='card-title2'>QUAIS SÃO OS PRINCIPAIS TIPOS DE ALEITAMENTO MATERNO?</h2>
           <ul className='card-list'>
@@ -100,8 +86,6 @@ const Card: React.FC = () => {
             O aleitamento materno estabelece uma base sólida de saúde para toda a vida. Crianças que foram amamentadas tendem a apresentar menos problemas de saúde ao longo do crescimento, sendo menos propensas à obesidade, hipertensão e outras doenças crônicas na adolescência e na fase adulta. (Ministério da Saúde, 2022)
           </p>
         </section>
-
->>>>>>> developer
       </div>
     </>
   );
