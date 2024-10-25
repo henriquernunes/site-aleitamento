@@ -84,7 +84,7 @@ const Card: React.FC = () => {
             O aleitamento materno estabelece uma base sólida de saúde para toda a vida. Crianças que foram amamentadas tendem a apresentar menos problemas de saúde ao longo do crescimento, sendo menos propensas à obesidade, hipertensão e outras doenças crônicas na adolescência e na fase adulta. (Ministério da Saúde, 2022)
           </p>
 
-          <h2 className='card-title3'><b>Para o Mãe</b></h2>
+          <h2 className='card-title3'><b>Para a Mãe</b></h2>
           <p className='card-p'>O amamentar ajuda a prevenir doenças como câncer de mama, ovário, útero e diabetes tipo 2. Apenas nos primeiros 6 meses pode aumentar o tempo entre as gestações, e quanto mais tempo a mulher amamenta, maiores os benefícios para sua saúde. Além disso, amamentar também faz bem para a saúde mental, aumentando a autoestima e confiança, o que fortalece o bem-estar da mulher.
           </p>
           <p className='card-p'>
@@ -184,6 +184,25 @@ const Card: React.FC = () => {
           </div>
         </section>
 
+        <section className='card-section2'>
+          <h1 className='card-title2'>COMPLICAÇÕES MATERNAS DA AMAMENTAÇÃO</h1>
+          <h2 className='card-title3'>Ingurgitamento da mama</h2>
+          <p className='card-p'>
+            O ingurgitamento mamário, popularmente conhecido como leite empedrado, é o acúmulo excessivo de leite nas mamas, causando dor, rigidez, vermelhidão e aumento do volume. Essa condição, comum nos estágios iniciais da lactação, ocorre geralmente nos primeiros dias após o nascimento do bebê. É frequentemente resultado de técnicas incorretas de amamentação, sucção ineficaz do bebê ou uso de suplementos para aumentar a produção de leite, levando a um enchimento excessivo e doloroso dos seios (LEAL., et al, 2022).
+          </p>
+          <p className='card-p'>
+            É fundamental distinguir entre o ingurgitamento fisiológico e o patológico. O ingurgitamento fisiológico é discreto e indica que o leite está descendo, não necessitando de intervenção. Por outro lado, o ingurgitamento patológico se caracteriza por uma distensão tecidual excessiva, causando intenso desconforto, muitas vezes acompanhado de febre e mal-estar. Nessa situação, a mama aumenta de tamanho, torna-se dolorosa e apresenta áreas avermelhadas, edemaciadas e brilhantes. Os mamilos podem ficar achatados, dificultando a pega do bebê, e o leite, frequentemente, não flui com facilidade. Essa condição costuma ocorrer entre o terceiro e o quinto dia após o parto e está geralmente associada a fatores como o início tardio da amamentação, mamadas infrequentes, restrições na duração e frequência das mamadas, uso de suplementos e sucção ineficaz do bebê  (LEAL., et al, 2022).
+          </p>
+
+          <h2 className='card-title3'>Mamilos doloridos</h2>
+          <p className='card-p'>
+            Além do ingurgitamento, a dor nos mamilos também é um problema comum durante a amamentação. Isso geralmente ocorre quando o bebê não está corretamente posicionado ao mamar, o que pode fazer com que ele retraia o lábio e o chupe, provocando irritação e feridas nos mamilos. Para evitar ou tratar essa dor, é crucial garantir que o bebê esteja com a boca bem aberta, abocanhando toda a aréola, e não apenas o mamilo, durante a amamentação. Isso promove uma sucção mais eficaz e previne lesões nos mamilos(CAMARGO., et al, 2024).
+          </p>
+          <p className='card-p'>
+            A causa mais frequente de dor ao amamentar é a pega incorreta do bebê. Além de dificultar a saída do leite, comprometendo a nutrição da criança, a sucção inadequada pode lesionar os mamilos devido ao excesso de fricção. Corrigir a pega é essencial tanto para o conforto da mãe quanto para o sucesso da amamentação (CAMARGO., et al, 2024).
+          </p>
+
+        </section>
 
       </div>
     </>
