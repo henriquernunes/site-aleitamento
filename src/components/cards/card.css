@@ -40,7 +40,14 @@
 }
 
 .card-list1 li {
-    margin-bottom: 16px;
+    overflow: hidden;
+    /* Garante que o conteúdo seja corretamente exibido ao lado da imagem */
+    list-style: none;
+    /* Remove o marcador padrão da lista */
+    margin-bottom: 15px;
+    /* Adiciona um espaçamento entre os itens da lista */
+    text-align: justify;
+    /* Faz o texto ser justificado */
 }
 
 .card-title3 {
@@ -66,4 +73,11 @@
 
 .img-mastite {
     width: 60%;
+}
+
+.img-mito {
+    width: 13%;
+    height: auto;
+    float: left;
+    margin-right: 10px;
 }

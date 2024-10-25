@@ -3,6 +3,7 @@ import './card.css';
 import Fundo from '../../assets/002aa288-1d72-48f2-a5a3-72659677082d.jpg';
 import mastite from '../../assets/mastite.jpg';
 import doloridos from '../../assets/doloridos.jpg';
+import mito from '../../assets/mito.jpg';
 
 const Card: React.FC = () => {
   return (
@@ -40,10 +41,10 @@ const Card: React.FC = () => {
             <li>
               <b>Aleitamento materno misto ou parcial:</b> a criança é alimentada tanto com leite materno quanto com outros tipos de leite.
             </li>
-            <li>
-              No segundo ano de vida, o leite materno continua sendo uma fonte importante de nutrientes, fornecendo grande parte das necessidades de vitaminas, proteínas e energia. Além disso, ele mantém a proteção contra infecções, e estudos mostram que crianças não amamentadas nessa fase têm quase o dobro de risco de morrer por doenças infecciosas (WORLD HEALTH ORGANIZATION, 2000).
-            </li>
           </ul>
+          <p className='card-p'>
+            No segundo ano de vida, o leite materno continua sendo uma fonte importante de nutrientes, fornecendo grande parte das necessidades de vitaminas, proteínas e energia. Além disso, ele mantém a proteção contra infecções, e estudos mostram que crianças não amamentadas nessa fase têm quase o dobro de risco de morrer por doenças infecciosas. (WORLD HEALTH ORGANIZATION, 2000)
+          </p>
         </section>
 
 
@@ -59,7 +60,7 @@ const Card: React.FC = () => {
             </li>
           </ul>
           <p className='card-p'>
-            A amamentação tem efeitos protetores importantes na saúde da criança, ajudando a prevenir diversas doenças, como alergias, doenças cardiovasculares, diabetes, e infecções, além de reduzir a mortalidade infantil. Isso ocorre devido aos componentes imunológicos presentes no leite materno, que fortalecem o sistema imunológico da criança.(Ministério da Saúde, 2022)
+            A amamentação tem efeitos protetores importantes na saúde da criança, ajudando a prevenir diversas doenças, como alergias, doenças cardiovasculares, diabetes, e infecções, além de reduzir a mortalidade infantil. Isso ocorre devido aos componentes imunológicos presentes no leite materno, que fortalecem o sistema imunológico da criança. (Ministério da Saúde, 2022)
           </p>
           <ul className='card-list'>
             <li>
@@ -112,9 +113,9 @@ const Card: React.FC = () => {
         <section className='card-section2'>
           <h1 className='card-title2'>FASES DO LEITE MATERNO</h1>
           <h2 className='card-title3'><b>Colostro</b></h2>
-          <p className='card-p'>O colostro constitui o primeiro leite com o qual o recém-nascido entra em contato ao realizar a sucção nas mamas da mãe. Trata-se de um líquido de coloração amarelada e consistência viscosa, presente nos alvéolos mamários desde o último trimestre da gestação até os primeiros dias do período pós-parto. Geralmente, a "descida do leite" ocorre dentro de até 30 horas após o parto. (SANTOS., <em>et al</em>, 2017).
+          <p className='card-p'>O colostro constitui o primeiro leite com o qual o recém-nascido entra em contato ao realizar a sucção nas mamas da mãe. Trata-se de um líquido de coloração amarelada e consistência viscosa, presente nos alvéolos mamários desde o último trimestre da gestação até os primeiros dias do período pós-parto. Geralmente, a "descida do leite" ocorre dentro de até 30 horas após o parto. (SANTOS., <em>et al</em>, 2017)
           </p>
-          <p className='card-p'>O colostro é produzido em quantidade limitada, porém é suficiente para nutrir e suprir as necessidades do neonato. Caracteriza-se por seu elevado teor proteico e pela presença de minerais importantes, como sódio, potássio e cloro, além de conter vitaminas lipossolúveis, tais como E, A e K. Além disso, é frequentemente descrito como uma "vacina natural", devido à sua riqueza em anticorpos transferidos verticalmente, desempenhando um papel essencial na imunidade do recém-nascido. (SANTOS., <em>et al</em>, 2017).
+          <p className='card-p'>O colostro é produzido em quantidade limitada, porém é suficiente para nutrir e suprir as necessidades do neonato. Caracteriza-se por seu elevado teor proteico e pela presença de minerais importantes, como sódio, potássio e cloro, além de conter vitaminas lipossolúveis, tais como E, A e K. Além disso, é frequentemente descrito como uma "vacina natural", devido à sua riqueza em anticorpos transferidos verticalmente, desempenhando um papel essencial na imunidade do recém-nascido. (SANTOS., <em>et al</em>, 2017)
           </p>
 
           <h2 className='card-title3'><b>Transição</b></h2>
@@ -190,18 +191,18 @@ const Card: React.FC = () => {
           <h1 className='card-title2'>COMPLICAÇÕES MATERNAS DA AMAMENTAÇÃO</h1>
           <h2 className='card-title3'>Ingurgitamento da mama</h2>
           <p className='card-p'>
-            O ingurgitamento mamário, popularmente conhecido como leite empedrado, é o acúmulo excessivo de leite nas mamas, causando dor, rigidez, vermelhidão e aumento do volume. Essa condição, comum nos estágios iniciais da lactação, ocorre geralmente nos primeiros dias após o nascimento do bebê. É frequentemente resultado de técnicas incorretas de amamentação, sucção ineficaz do bebê ou uso de suplementos para aumentar a produção de leite, levando a um enchimento excessivo e doloroso dos seios (LEAL., <em>et al</em>, 2022).
+            O ingurgitamento mamário, popularmente conhecido como leite empedrado, é o acúmulo excessivo de leite nas mamas, causando dor, rigidez, vermelhidão e aumento do volume. Essa condição, comum nos estágios iniciais da lactação, ocorre geralmente nos primeiros dias após o nascimento do bebê. É frequentemente resultado de técnicas incorretas de amamentação, sucção ineficaz do bebê ou uso de suplementos para aumentar a produção de leite, levando a um enchimento excessivo e doloroso dos seios. (LEAL., <em>et al</em>, 2022)
           </p>
           <p className='card-p'>
-            É fundamental distinguir entre o ingurgitamento fisiológico e o patológico. O ingurgitamento fisiológico é discreto e indica que o leite está descendo, não necessitando de intervenção. Por outro lado, o ingurgitamento patológico se caracteriza por uma distensão tecidual excessiva, causando intenso desconforto, muitas vezes acompanhado de febre e mal-estar. Nessa situação, a mama aumenta de tamanho, torna-se dolorosa e apresenta áreas avermelhadas, edemaciadas e brilhantes. Os mamilos podem ficar achatados, dificultando a pega do bebê, e o leite, frequentemente, não flui com facilidade. Essa condição costuma ocorrer entre o terceiro e o quinto dia após o parto e está geralmente associada a fatores como o início tardio da amamentação, mamadas infrequentes, restrições na duração e frequência das mamadas, uso de suplementos e sucção ineficaz do bebê  (LEAL., <em>et al</em>, 2022).
+            É fundamental distinguir entre o ingurgitamento fisiológico e o patológico. O ingurgitamento fisiológico é discreto e indica que o leite está descendo, não necessitando de intervenção. Por outro lado, o ingurgitamento patológico se caracteriza por uma distensão tecidual excessiva, causando intenso desconforto, muitas vezes acompanhado de febre e mal-estar. Nessa situação, a mama aumenta de tamanho, torna-se dolorosa e apresenta áreas avermelhadas, edemaciadas e brilhantes. Os mamilos podem ficar achatados, dificultando a pega do bebê, e o leite, frequentemente, não flui com facilidade. Essa condição costuma ocorrer entre o terceiro e o quinto dia após o parto e está geralmente associada a fatores como o início tardio da amamentação, mamadas infrequentes, restrições na duração e frequência das mamadas, uso de suplementos e sucção ineficaz do bebê.  (LEAL., <em>et al</em>, 2022)
           </p>
 
           <h2 className='card-title3'>Mamilos doloridos</h2>
           <p className='card-p'>
-            Além do ingurgitamento, a dor nos mamilos também é um problema comum durante a amamentação. Isso geralmente ocorre quando o bebê não está corretamente posicionado ao mamar, o que pode fazer com que ele retraia o lábio e o chupe, provocando irritação e feridas nos mamilos. Para evitar ou tratar essa dor, é crucial garantir que o bebê esteja com a boca bem aberta, abocanhando toda a aréola, e não apenas o mamilo, durante a amamentação. Isso promove uma sucção mais eficaz e previne lesões nos mamilos(CAMARGO., <em>et al</em>, 2024).
+            Além do ingurgitamento, a dor nos mamilos também é um problema comum durante a amamentação. Isso geralmente ocorre quando o bebê não está corretamente posicionado ao mamar, o que pode fazer com que ele retraia o lábio e o chupe, provocando irritação e feridas nos mamilos. Para evitar ou tratar essa dor, é crucial garantir que o bebê esteja com a boca bem aberta, abocanhando toda a aréola, e não apenas o mamilo, durante a amamentação. Isso promove uma sucção mais eficaz e previne lesões nos mamilos.(CAMARGO., <em>et al</em>, 2024)
           </p>
           <p className='card-p'>
-            A causa mais frequente de dor ao amamentar é a pega incorreta do bebê. Além de dificultar a saída do leite, comprometendo a nutrição da criança, a sucção inadequada pode lesionar os mamilos devido ao excesso de fricção. Corrigir a pega é essencial tanto para o conforto da mãe quanto para o sucesso da amamentação (CAMARGO., <em>et al</em>, 2024).
+            A causa mais frequente de dor ao amamentar é a pega incorreta do bebê. Além de dificultar a saída do leite, comprometendo a nutrição da criança, a sucção inadequada pode lesionar os mamilos devido ao excesso de fricção. Corrigir a pega é essencial tanto para o conforto da mãe quanto para o sucesso da amamentação. (CAMARGO., <em>et al</em>, 2024)
           </p>
           {/*
           <div className='img-container'>
@@ -211,10 +212,10 @@ const Card: React.FC = () => {
 
           <h2 className='card-title3'>Ductos de leite entupidos</h2>
           <p className='card-p'>
-            O bloqueio de ductos lactíferos ocorre quando o leite produzido numa determinada área da mama por alguma razão não é drenado adequadamente (não é necessária uma obstrução sólida). Isso ocorre com frequência quando a mama não está sendo esvaziada adequadamente, como quando a amamentação é infrequente ou quando a criança apresenta sucção inefetiva. Pode ocorrer também quando existe pressão local em uma área, como, por exemplo, um sutiã muito apertado, ou como consequência do uso de cremes nos mamilos (GIUGLIANI., <em>et al</em>, 2004).
+            O bloqueio de ductos lactíferos ocorre quando o leite produzido numa determinada área da mama por alguma razão não é drenado adequadamente (não é necessária uma obstrução sólida). Isso ocorre com frequência quando a mama não está sendo esvaziada adequadamente, como quando a amamentação é infrequente ou quando a criança apresenta sucção inefetiva. Pode ocorrer também quando existe pressão local em uma área, como, por exemplo, um sutiã muito apertado, ou como consequência do uso de cremes nos mamilos. (GIUGLIANI., <em>et al</em>, 2004)
           </p>
           <p className='card-p'>
-            O bloqueio dos ductos lactíferos costuma se apresentar com nódulos mamários dolorosos e sensíveis, em uma mãe sem histórico de outras doenças mamárias. A área afetada pode apresentar dor, calor e vermelhidão (eritema), sem que isso seja acompanhado de febre alta. Em alguns casos, pode-se observar um pequeno e quase imperceptível ponto branco na ponta do mamilo, que pode causar dor intensa durante a amamentação (GIUGLIANI., <em>et al</em>, 2004).
+            O bloqueio dos ductos lactíferos costuma se apresentar com nódulos mamários dolorosos e sensíveis, em uma mãe sem histórico de outras doenças mamárias. A área afetada pode apresentar dor, calor e vermelhidão (eritema), sem que isso seja acompanhado de febre alta. Em alguns casos, pode-se observar um pequeno e quase imperceptível ponto branco na ponta do mamilo, que pode causar dor intensa durante a amamentação. (GIUGLIANI., <em>et al</em>, 2004)
           </p>
 
           <h2 className='card-title3'>Mastite</h2>
@@ -222,7 +223,7 @@ const Card: React.FC = () => {
             A mastite é uma infecção da mama que pode ocorrer em mulheres que estão amamentando, especialmente em casos de ingurgitamento ou bloqueio dos ductos lactíferos. Bactérias podem entrar no seio através de mamilos rachados ou machucados, provocando uma infecção. A área afetada torna-se dolorida, quente e avermelhada, e a mulher pode apresentar febre, calafrios e sintomas semelhantes aos da gripe.
           </p>
           <p className='card-p'>
-            Qualquer fator que favorece a estagnação do leite materno aumenta o risco de desenvolver mastite, como mamadas em horários rígidos, redução súbita no número de mamadas, longos períodos de sono do bebê durante a noite, uso de chupetas ou mamadeiras, esvaziamento incompleto das mamas, freio de língua curto, sucção fraca do bebê, produção excessiva de leite, separação entre mãe e bebê, ou desmame abrupto. A fadiga materna também é considerada um fator que facilita o surgimento da mastite. Mulheres que já tiveram mastite na lactação atual ou em lactações anteriores são mais propensas a novos episódios, devido à ruptura da integridade da junção entre as células alveolares (GIUGLIANI., <em>et al</em>, 2004).
+            Qualquer fator que favorece a estagnação do leite materno aumenta o risco de desenvolver mastite, como mamadas em horários rígidos, redução súbita no número de mamadas, longos períodos de sono do bebê durante a noite, uso de chupetas ou mamadeiras, esvaziamento incompleto das mamas, freio de língua curto, sucção fraca do bebê, produção excessiva de leite, separação entre mãe e bebê, ou desmame abrupto. A fadiga materna também é considerada um fator que facilita o surgimento da mastite. Mulheres que já tiveram mastite na lactação atual ou em lactações anteriores são mais propensas a novos episódios, devido à ruptura da integridade da junção entre as células alveolares. (GIUGLIANI., <em>et al</em>, 2004)
           </p>
           {/*
           <div className='img-container'>
@@ -232,17 +233,17 @@ const Card: React.FC = () => {
 
           <h2 className='card-title3'>Ansiedade</h2>
           <p className='card-p'>
-            A falta de experiência com a amamentação, juntamente com a dificuldade em segurar o bebê e garantir que ele abocanhe corretamente o seio e sugue de forma eficaz, pode levar a sentimentos de ansiedade, frustração e inadequação nas mães. A fadiga e a incerteza sobre se o bebê está recebendo uma quantidade suficiente de leite também contribuem para esse estresse. Além disso, as alterações físicas que ocorrem após o parto, como dor nos mamilos, ingurgitamento mamário e mastite, podem intensificar esses sentimentos ( ABUCHAIM., <em>et al</em>, 2023).
+            A falta de experiência com a amamentação, juntamente com a dificuldade em segurar o bebê e garantir que ele abocanhe corretamente o seio e sugue de forma eficaz, pode levar a sentimentos de ansiedade, frustração e inadequação nas mães. A fadiga e a incerteza sobre se o bebê está recebendo uma quantidade suficiente de leite também contribuem para esse estresse. Além disso, as alterações físicas que ocorrem após o parto, como dor nos mamilos, ingurgitamento mamário e mastite, podem intensificar esses sentimentos. ( ABUCHAIM., <em>et al</em>, 2023)
           </p>
           <p className='card-p'>
-            Esses fatores emocionais e físicos são algumas das razões mais comuns que levam as mães a interromper a amamentação. É importante reconhecer que o apoio emocional, a orientação prática e a educação sobre a amamentação podem ajudar a superar essas dificuldades. O suporte de profissionais de saúde, grupos de apoio e a troca de experiências com outras mães podem oferecer a assistência necessária para melhorar a confiança das mães, facilitar a amamentação e, assim, incentivar a continuidade desse importante vínculo entre mãe e bebê ( ABUCHAIM., <em>et al</em>, 2023).
+            Esses fatores emocionais e físicos são algumas das razões mais comuns que levam as mães a interromper a amamentação. É importante reconhecer que o apoio emocional, a orientação prática e a educação sobre a amamentação podem ajudar a superar essas dificuldades. O suporte de profissionais de saúde, grupos de apoio e a troca de experiências com outras mães podem oferecer a assistência necessária para melhorar a confiança das mães, facilitar a amamentação e, assim, incentivar a continuidade desse importante vínculo entre mãe e bebê. ( ABUCHAIM., <em>et al</em>, 2023)
           </p>
         </section>
 
         <section className='card-section2'>
           <h1 className='card-title2'>QUANDO É CONTRA INDICADO O ALEITAMENTO MATERNO</h1>
           <ul className='card-list'>
-            <li>Mães com HIV (Ainda);</li>
+            <li>Mães com HIV;</li>
             <li>Mães com HTLV1 e HTLV2; (Vírus linfotrópico da célula T humana tipo 1 e tipo 2);</li>
             <li>Uso de medicamentos que impedem a amamentação, como antineoplásicos e radiofármacos.</li>
             <li>Criança com galactosemia, condição que impede a ingestão de leite contendo lactose.</li>
@@ -269,16 +270,16 @@ const Card: React.FC = () => {
         <section className='card-section2'>
           <h1 className='card-title2'>MITOS SOBRE O ALEITAMENTO MATERNO</h1>
           <ul className='card-list1'>
-            <li>Crença na produção de leite insuficiente: Biologicamente, as mães produzem leite suficiente para atender à demanda de seus filhos. A insegurança sobre essa capacidade pode levar algumas mães a introduzirem outros alimentos sem buscar orientação profissional, comprometendo o aleitamento materno exclusivo e seus benefícios para mãe e bebê.</li>
-            <li>Algumas mulheres produzem leite fraco: Esse é um dos mitos mais comuns sobre amamentação. Na realidade, toda mãe produz o leite ideal para o desenvolvimento do seu bebê.</li>
-            <li>Só o leite materno não sustenta o bebê, e ele chora de fome: O choro nem sempre indica fome. O bebê pode estar com cólica, sentir frio ou calor, estar molhado ou apenas querer atenção e colo. O choro é sua única forma de comunicação nos primeiros meses de vida.</li>
-            <li>Amamentar é um excelente anticoncepcional: Algumas mulheres podem voltar a ovular mesmo durante a amamentação, pois o ciclo menstrual pode ser retomado, apesar da supressão hormonal. Portanto, deve haver um acompanhamento médico pois existem critérios para haver essa contracepção.</li>
-            <li>Durante a amamentação, qualquer pílula anticoncepcional pode ser usada: Há pílulas anticoncepcionais específicas para mulheres que estão amamentando. Essas pílulas, conhecidas como minipílulas, contêm apenas progestagênio, um hormônio que bloqueia a ovulação, e podem ser usadas a partir da sexta semana pós-parto.</li>
-            <li>Canjica e caldo de cana aumentam a produção de leite: A produção de leite materno depende principalmente da frequência com que o bebê mama e esvazia a mama. Quanto mais o bebê suga e esvazia as mamas, maior será a produção de leite.</li>
-            <li>O leite materno pode ser fraco para o bebê: Não existe leite materno fraco. Sua composição é praticamente a mesma para todas as mulheres que amamentam, sendo o alimento ideal para o bebê. Ele deve ser exclusivo até o sexto mês de vida e complementar até dois anos ou mais.</li>
-            <li>Compressa de água quente ajuda com o leite empedrado: O tratamento recomendado para leite empedrado é fazer massagem e ordenha. Compressas quentes podem piorar a situação, aumentando o leite retido nas mamas e intensificando o problema.</li>
+            <li><img className='img-mito' src={mito} alt="mito" /><b>Crença na produção de leite insuficiente:</b> Biologicamente, as mães produzem leite suficiente para atender à demanda de seus filhos. A insegurança sobre essa capacidade pode levar algumas mães a introduzirem outros alimentos sem buscar orientação profissional, comprometendo o aleitamento materno exclusivo e seus benefícios para mãe e bebê.</li>
+            <li><img className='img-mito' src={mito} alt="mito" /><b>Algumas mulheres produzem leite fraco:</b> Esse é um dos mitos mais comuns sobre amamentação. Na realidade, toda mãe produz o leite ideal para o desenvolvimento do seu bebê.</li>
+            <li><img className='img-mito' src={mito} alt="mito" /><b>Só o leite materno não sustenta o bebê, e ele chora de fome:</b> O choro nem sempre indica fome. O bebê pode estar com cólica, sentir frio ou calor, estar molhado ou apenas querer atenção e colo. O choro é sua única forma de comunicação nos primeiros meses de vida.</li>
+            <li><img className='img-mito' src={mito} alt="mito" /><b>Amamentar é um excelente anticoncepcional:</b> Algumas mulheres podem voltar a ovular mesmo durante a amamentação, pois o ciclo menstrual pode ser retomado, apesar da supressão hormonal. Portanto, deve haver um acompanhamento médico pois existem critérios para haver essa contracepção.</li>
+            <li><img className='img-mito' src={mito} alt="mito" /><b>Durante a amamentação, qualquer pílula anticoncepcional pode ser usada:</b> Há pílulas anticoncepcionais específicas para mulheres que estão amamentando. Essas pílulas, conhecidas como minipílulas, contêm apenas progestagênio, um hormônio que bloqueia a ovulação, e podem ser usadas a partir da sexta semana pós-parto.</li>
+            <li><img className='img-mito' src={mito} alt="mito" /><b>Canjica e caldo de cana aumentam a produção de leite:</b> A produção de leite materno depende principalmente da frequência com que o bebê mama e esvazia a mama. Quanto mais o bebê suga e esvazia as mamas, maior será a produção de leite.</li>
+            <li><img className='img-mito' src={mito} alt="mito" /><b>O leite materno pode ser fraco para o bebê:</b> Não existe leite materno fraco. Sua composição é praticamente a mesma para todas as mulheres que amamentam, sendo o alimento ideal para o bebê. Ele deve ser exclusivo até o sexto mês de vida e complementar até dois anos ou mais.</li>
+            <li><img className='img-mito' src={mito} alt="mito" /><b>Compressa de água quente ajuda com o leite empedrado:</b> O tratamento recomendado para leite empedrado é fazer massagem e ordenha. Compressas quentes podem piorar a situação, aumentando o leite retido nas mamas e intensificando o problema.</li>
           </ul>
-          
+
         </section>
 
       </div>
