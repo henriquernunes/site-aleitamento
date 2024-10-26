@@ -6,6 +6,9 @@ html {
 
 .card {
     margin: 10px 10px 0 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
 }
 
 .card-image {
@@ -45,7 +48,6 @@ html {
     border-color: 3px solid black;
     padding: 7px;
     margin-top: 20px;
-    border: 1px solid black;
 }
 
 .card-p,
@@ -53,6 +55,7 @@ html {
     text-align: justify;
     font-family: 'Arima', sans-serif;
     hyphens: auto;
+    margin-bottom: 25px;
 }
 
 .card-list1 {
@@ -120,10 +123,6 @@ html {
     background-color: #c17f96;
 }
 
-.referencia:hover {
-    transform: scale(1.05);
-}
-
 .referencia-container {
     display: flex;
     justify-content: center;
@@ -134,86 +133,21 @@ html {
     text-transform: uppercase;
 }
 
-.extras {
-    text-align: center;
-    margin-top: 20px;
-  }
+.disponivel-container {
+    display: flex;
+    gap: 5px;
+    /* Espaço entre o texto "Disponível em:" e o link */
+    flex-wrap: wrap;
+    /* Permite que o link quebre para a linha de baixo se necessário */
+    align-items: center;
+    /* Alinha verticalmente os elementos */
+}
 
-.yy a {
-    color: black;
+.disponivel-container a {
+    overflow-wrap: anywhere;
+    /* Faz com que o link quebre em qualquer lugar */
     text-decoration: none;
-    font-weight: 550;
+    /* Remove a sublinhado do link */
+    color: #0000ee;
+    /* Ajuste a cor do link conforme desejado */
 }
-
-.yy a:visited {
-    color: black;
-    /* Mantém a cor preta mesmo após o link ser visitado */
-}
-
-.yy a:hover {
-    color: black;
-    /* Mantém a cor preta ao passar o mouse */
-
-}
-
-.yy a:active {
-    color: black;
-    /* Mantém a cor preta ao clicar */
-}
-
-.card-title3:hover {
-    transform: scale(1.05);
-}
-
-
-.buttons-container {
-    display: inline-block; /* Mantém os botões em linha */
-    text-align: center; /* Centraliza o contêiner */
-    margin: 0 auto; /* Garante que o contêiner esteja centralizado */
-    width: 90%;
-  }
-  
-  .button-content {
-    display: inline-block; /* Garante que cada botão esteja em linha */
-    margin: 0 10px; /* Espaço entre os botões */
-    width: 90%; /* Largura fixa para consistência */
-  }
-  
-  .xx {
-    background-color: #c17f96;
-    border: 1px solid #000;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    text-align: center;
-    width: 70%;
-    font-family: 'Arima', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-  }
-
-  .xx1 {
-    margin-top: 20px;
-  }
-  
-  .yy {
-    list-style-type: none;
-    padding: 0;
-    margin: 10px auto;
-    text-align: center;
-    list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-    text-align: justify;
-    font-family: 'Arima', sans-serif;
-    hyphens: auto;
-  }
-  
-  .yy li {
-    margin-bottom: 10px;
-    line-height: 1.5;
-    text-align: center;
-    display: block;
-  }

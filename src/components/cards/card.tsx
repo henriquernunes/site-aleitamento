@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './card.css';
+import { useNavigate } from 'react-router-dom';
 import Fundo from '../../assets/002aa288-1d72-48f2-a5a3-72659677082d.jpg';
 import mastite from '../../assets/mastite.jpg';
 import doloridos from '../../assets/mamilosdoloridos.jpg';
@@ -8,7 +9,31 @@ import ansiedade from '../../assets/ansiedade.jpg';
 import ingurjitamento from '../../assets/ingurjitamento.jpg';
 import mito from '../../assets/mito.jpg';
 
+
 const Card: React.FC = () => {
+
+  const navigate = useNavigate();
+  const [isDiscentesOpen, setIsDiscentesOpen] = useState(false);
+  const [isDocenteOpen, setIsDocenteOpen] = useState(false);
+
+  const handleClick = () => {
+    navigate('/referencias');
+  }
+
+  const toggleDiscentes = () => {
+    setIsDiscentesOpen(!isDiscentesOpen);
+    if (!isDiscentesOpen) {
+      setIsDocenteOpen(false); // Fecha o DOCENTE se os DISCENTES forem abertos
+    }
+  };
+
+  const toggleDocente = () => {
+    setIsDocenteOpen(!isDocenteOpen);
+    if (!isDocenteOpen) {
+      setIsDiscentesOpen(false); // Fecha os DISCENTES se o DOCENTE for aberto
+    }
+  };
+
   return (
     <>
 
@@ -77,7 +102,7 @@ const Card: React.FC = () => {
             </li>
           </ul>
           <p className='card-p'>
-            No segundo ano de vida, o leite materno continua sendo uma fonte importante de nutrientes, fornecendo grande parte das necessidades de vitaminas, proteínas e energia. Além disso, ele mantém a proteção contra infecções, e estudos mostram que crianças não amamentadas nessa fase têm quase o dobro de risco de morrer por doenças infecciosas. (WORLD HEALTH ORGANIZATION, 2000)
+            No segundo ano de vida, o leite materno continua sendo uma fonte importante de nutrientes, fornecendo grande parte das necessidades de vitaminas, proteínas e energia. Além disso, ele mantém a proteção contra infecções, e estudos mostram que crianças não amamentadas nessa fase têm quase o dobro de risco de morrer por doenças infecciosas. (WHO, 2000)
           </p>
         </section>
 
@@ -333,9 +358,66 @@ const Card: React.FC = () => {
         </section>
 
         <section className='card-section2'>
+          <div className='referencia-container'>
+            <button className='card-title2 referencia' onClick={handleClick}>REFERÊNCIAS, clique aqui</button>
+          </div>
         </section>
+      
+
+      <section className="extras">
+        <div className="buttons-container">
+          <div className="button-content">
+            <button className="xx" onClick={toggleDiscentes}>
+              DISCENTES:
+            </button>
+            {isDiscentesOpen && (
+              <ul className="yy">
+                <li>
+                  <b>Alanis Vitória Ribeiro da Silva</b><br />
+                  <a href="https://orcid.org/0009-0002-9692-1252">https://orcid.org/0009-0002-9692-1252</a>
+                </li>
+                <li>
+                  <b>Michelly Araújo</b><br />
+                  <a href="http://lattes.cnpq.br/4902150032061030">http://lattes.cnpq.br/4902150032061030</a>
+                </li>
+                <li>
+                  <b>Pedro Henrique Resende Rodrigues</b><br />
+                  <a href="http://lattes.cnpq.br/5665982111339469">http://lattes.cnpq.br/5665982111339469</a>
+                </li>
+                <li>
+                  <b>Quésia Costa Grapiúna</b><br />
+                  <a href="http://lattes.cnpq.br/9087099641404324">http://lattes.cnpq.br/9087099641404324</a>
+                </li>
+                <li>
+                  <b>Victoria Vieira Oliveira Silva</b><br />
+                  <a href="https://orcid.org/0009-0008-1507-7541">https://orcid.org/0009-0008-1507-7541</a>
+                </li>
+              </ul>
+            )}
+          </div>
+
+          <div className="button-content">
+            <button className="xx xx1" onClick={toggleDocente}>
+              DOCENTE:
+            </button>
+            {isDocenteOpen && (
+              <ul className="yy">
+                <li>
+                  <b>Renan Andrews Ribeiro Sousa</b><br />
+                  <a href="http://lattes.cnpq.br/5872370605309780">http://lattes.cnpq.br/5872370605309780</a>
+                </li>
+              </ul>
+            )}
+          </div>
+        </div>
+      </section>
 
       </div>
+
+
+
+
+
     </>
   );
 };

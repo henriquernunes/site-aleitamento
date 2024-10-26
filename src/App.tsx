@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-d
 import Header from './components/headers/header'; // Certifique-se de que o caminho esteja correto
 import Card from './components/cards/card';
 import Footer from './components/footer/footer'; // Certifique-se de que o caminho esteja correto
+import Referencias from './components/referencias/referencia';
 import './App.css';
 
 const Home: React.FC = () => {
@@ -21,6 +22,7 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/referencias" element={<Referencias />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
