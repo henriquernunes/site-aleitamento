@@ -118,10 +118,12 @@ html {
     margin-top: 7px;
     width: 200px;
     background-color: #c17f96;
+    color: black; /* Define a cor do texto */
+    text-decoration: none; /* Remove sublinhado */
 }
 
 .referencia:active {
-color: black;
+    color: black;
 }
 
 .referencia:visited {
