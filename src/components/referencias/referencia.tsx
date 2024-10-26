@@ -5,7 +5,7 @@ import './referencia.css';
 const Referencias: React.FC = () => {
 
     return (
-        <section className='card'>
+        <section className='card-r'>
             <h1 className='card-title2'>REFERÊNCIAS</h1>
 
             <p className='card-p'>ABUCHAIM, V. S. E.; MARCACINE, O. K.; COCA, P. K.; et al. Ansiedade materna e sua interferência na autoeficácia para amamentação. Acta Paul Enferm, 2023.</p>
