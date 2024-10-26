@@ -2,42 +2,31 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="./circular_image.png" />
+    <link rel="icon" href="%PUBLIC_URL%/circular_image.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="O site destaca a importância do aleitamento materno como uma fonte essencial de nutrientes, fortalecendo o sistema imunológico do bebê, além de promover um vínculo emocional entre mãe e filho. Ele explica que a amamentação contribui para o desenvolvimento cognitivo e emocional, além de reduzir o risco de doenças. O site fornece orientações práticas e destaca os benefícios para a saúde a longo prazo, tanto para o bebê quanto para a mãe."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
+    <!-- Open Graph Meta Tags para redes sociais (como WhatsApp) -->
+    <meta property="og:title" content="Aleitamento Materno" />
+    <meta property="og:description" content="O site destaca a importância do aleitamento materno como uma fonte essencial para a saúde do bebê e da mãe." />
+    <meta property="og:image" content="%PUBLIC_URL%/circular_image.png" />
+    <meta property="og:url" content="https://enfermagemg5uepa.vercel.app/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Meta Tags para Apple Devices -->
+    <link rel="apple-touch-icon" href="./circular_image.png" />
+
+    <!-- Manifest para configuração de web app -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
     <title>Aleitamento Materno</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>
