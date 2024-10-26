@@ -2,7 +2,10 @@ import React from 'react';
 import './card.css';
 import Fundo from '../../assets/002aa288-1d72-48f2-a5a3-72659677082d.jpg';
 import mastite from '../../assets/mastite.jpg';
-import doloridos from '../../assets/doloridos.jpg';
+import doloridos from '../../assets/mamilosdoloridos.jpg';
+import ducto from '../../assets/ducto.jpg';
+import ansiedade from '../../assets/ansiedade.jpg';
+import ingurjitamento from '../../assets/ingurjitamento.jpg';
 import mito from '../../assets/mito.jpg';
 
 const Card: React.FC = () => {
@@ -222,7 +225,7 @@ const Card: React.FC = () => {
           <h1 className='card-title2'>COMPLICAÇÕES MATERNAS DA AMAMENTAÇÃO</h1>
           <h2 className='card-title3'>Ingurgitamento da mama</h2>
           <div className='mastite-container'>
-            <img className='img-mastite' src={mastite} alt="" />
+            <img className='img-mastite' src={ingurjitamento} alt="" />
             <p className="card-p pteste">
               O ingurgitamento mamário, popularmente conhecido como leite empedrado, é o acúmulo excessivo de leite nas mamas, causando dor, rigidez, vermelhidão e aumento do volume. Essa condição, comum nos estágios iniciais da lactação, ocorre geralmente nos primeiros dias após o nascimento do bebê. É frequentemente resultado de técnicas incorretas de amamentação, sucção ineficaz do bebê ou uso de suplementos para aumentar a produção de leite, levando a um enchimento excessivo e doloroso dos seios. (LEAL., <em>et al</em>, 2022)
             </p>
@@ -234,9 +237,12 @@ const Card: React.FC = () => {
           </p>
 
           <h2 className='card-title3'>Mamilos doloridos</h2>
-          <p className='card-p'>
-            Além do ingurgitamento, a dor nos mamilos também é um problema comum durante a amamentação. Isso geralmente ocorre quando o bebê não está corretamente posicionado ao mamar, o que pode fazer com que ele retraia o lábio e o chupe, provocando irritação e feridas nos mamilos. Para evitar ou tratar essa dor, é crucial garantir que o bebê esteja com a boca bem aberta, abocanhando toda a aréola, e não apenas o mamilo, durante a amamentação. Isso promove uma sucção mais eficaz e previne lesões nos mamilos.(CAMARGO., <em>et al</em>, 2024)
-          </p>
+          <div className='mastite-container'>
+            <img className='img-mastite' src={doloridos} alt="" />
+            <p className='card-p'>
+              Além do ingurgitamento, a dor nos mamilos também é um problema comum durante a amamentação. Isso geralmente ocorre quando o bebê não está corretamente posicionado ao mamar, o que pode fazer com que ele retraia o lábio e o chupe, provocando irritação e feridas nos mamilos. Para evitar ou tratar essa dor, é crucial garantir que o bebê esteja com a boca bem aberta, abocanhando toda a aréola, e não apenas o mamilo, durante a amamentação. Isso promove uma sucção mais eficaz e previne lesões nos mamilos.(CAMARGO., <em>et al</em>, 2024)
+            </p>
+          </div>
           <p className='card-p'>
             A causa mais frequente de dor ao amamentar é a pega incorreta do bebê. Além de dificultar a saída do leite, comprometendo a nutrição da criança, a sucção inadequada pode lesionar os mamilos devido ao excesso de fricção. Corrigir a pega é essencial tanto para o conforto da mãe quanto para o sucesso da amamentação. (CAMARGO., <em>et al</em>, 2024)
           </p>
@@ -247,17 +253,23 @@ const Card: React.FC = () => {
           */}
 
           <h2 className='card-title3'>Ductos de leite entupidos</h2>
-          <p className='card-p'>
-            O bloqueio de ductos lactíferos ocorre quando o leite produzido numa determinada área da mama por alguma razão não é drenado adequadamente (não é necessária uma obstrução sólida). Isso ocorre com frequência quando a mama não está sendo esvaziada adequadamente, como quando a amamentação é infrequente ou quando a criança apresenta sucção inefetiva. Pode ocorrer também quando existe pressão local em uma área, como, por exemplo, um sutiã muito apertado, ou como consequência do uso de cremes nos mamilos. (GIUGLIANI., <em>et al</em>, 2004)
-          </p>
+          <div className='mastite-container'>
+            <img className='img-mastite' src={ducto} alt="" />
+            <p className='card-p'>
+              O bloqueio de ductos lactíferos ocorre quando o leite produzido numa determinada área da mama por alguma razão não é drenado adequadamente (não é necessária uma obstrução sólida). Isso ocorre com frequência quando a mama não está sendo esvaziada adequadamente, como quando a amamentação é infrequente ou quando a criança apresenta sucção inefetiva. Pode ocorrer também quando existe pressão local em uma área, como, por exemplo, um sutiã muito apertado, ou como consequência do uso de cremes nos mamilos. (GIUGLIANI., <em>et al</em>, 2004)
+            </p>
+          </div>
           <p className='card-p'>
             O bloqueio dos ductos lactíferos costuma se apresentar com nódulos mamários dolorosos e sensíveis, em uma mãe sem histórico de outras doenças mamárias. A área afetada pode apresentar dor, calor e vermelhidão (eritema), sem que isso seja acompanhado de febre alta. Em alguns casos, pode-se observar um pequeno e quase imperceptível ponto branco na ponta do mamilo, que pode causar dor intensa durante a amamentação. (GIUGLIANI., <em>et al</em>, 2004)
           </p>
 
           <h2 className='card-title3'>Mastite</h2>
-          <p className='card-p'>
-            A mastite é uma infecção da mama que pode ocorrer em mulheres que estão amamentando, especialmente em casos de ingurgitamento ou bloqueio dos ductos lactíferos. Bactérias podem entrar no seio através de mamilos rachados ou machucados, provocando uma infecção. A área afetada torna-se dolorida, quente e avermelhada, e a mulher pode apresentar febre, calafrios e sintomas semelhantes aos da gripe.
-          </p>
+          <div className='mastite-container'>
+            <img className='img-mastite' src={mastite} alt="" />
+            <p className='card-p'>
+              A mastite é uma infecção da mama que pode ocorrer em mulheres que estão amamentando, especialmente em casos de ingurgitamento ou bloqueio dos ductos lactíferos. Bactérias podem entrar no seio através de mamilos rachados ou machucados, provocando uma infecção. A área afetada torna-se dolorida, quente e avermelhada, e a mulher pode apresentar febre, calafrios e sintomas semelhantes aos da gripe.
+            </p>
+          </div>
           <p className='card-p'>
             Qualquer fator que favorece a estagnação do leite materno aumenta o risco de desenvolver mastite, como mamadas em horários rígidos, redução súbita no número de mamadas, longos períodos de sono do bebê durante a noite, uso de chupetas ou mamadeiras, esvaziamento incompleto das mamas, freio de língua curto, sucção fraca do bebê, produção excessiva de leite, separação entre mãe e bebê, ou desmame abrupto. A fadiga materna também é considerada um fator que facilita o surgimento da mastite. Mulheres que já tiveram mastite na lactação atual ou em lactações anteriores são mais propensas a novos episódios, devido à ruptura da integridade da junção entre as células alveolares. (GIUGLIANI., <em>et al</em>, 2004)
           </p>
@@ -268,9 +280,12 @@ const Card: React.FC = () => {
           */}
 
           <h2 className='card-title3'>Ansiedade</h2>
-          <p className='card-p'>
-            A falta de experiência com a amamentação, juntamente com a dificuldade em segurar o bebê e garantir que ele abocanhe corretamente o seio e sugue de forma eficaz, pode levar a sentimentos de ansiedade, frustração e inadequação nas mães. A fadiga e a incerteza sobre se o bebê está recebendo uma quantidade suficiente de leite também contribuem para esse estresse. Além disso, as alterações físicas que ocorrem após o parto, como dor nos mamilos, ingurgitamento mamário e mastite, podem intensificar esses sentimentos. (ABUCHAIM., <em>et al</em>, 2023)
-          </p>
+          <div className='mastite-container'>
+            <img className='img-mastite' src={ansiedade} alt="" />
+            <p className='card-p'>
+              A falta de experiência com a amamentação, juntamente com a dificuldade em segurar o bebê e garantir que ele abocanhe corretamente o seio e sugue de forma eficaz, pode levar a sentimentos de ansiedade, frustração e inadequação nas mães. A fadiga e a incerteza sobre se o bebê está recebendo uma quantidade suficiente de leite também contribuem para esse estresse. Além disso, as alterações físicas que ocorrem após o parto, como dor nos mamilos, ingurgitamento mamário e mastite, podem intensificar esses sentimentos. (ABUCHAIM., <em>et al</em>, 2023)
+            </p>
+          </div>
           <p className='card-p'>
             Esses fatores emocionais e físicos são algumas das razões mais comuns que levam as mães a interromper a amamentação. É importante reconhecer que o apoio emocional, a orientação prática e a educação sobre a amamentação podem ajudar a superar essas dificuldades. O suporte de profissionais de saúde, grupos de apoio e a troca de experiências com outras mães podem oferecer a assistência necessária para melhorar a confiança das mães, facilitar a amamentação e, assim, incentivar a continuidade desse importante vínculo entre mãe e bebê. (ABUCHAIM., <em>et al</em>, 2023)
           </p>
