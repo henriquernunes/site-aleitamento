@@ -120,8 +120,18 @@ html {
     background-color: #c17f96;
 }
 
+.referencia:active {
+color: black;
+}
+
+.referencia:visited {
+    color: black;
+}
+
+
 .referencia:hover {
     transform: scale(1.05);
+    color: black;
 }
 
 .referencia-container {
