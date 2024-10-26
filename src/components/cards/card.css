@@ -1,14 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Black&family=Arima:wght@100..700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 .card {
-    margin: 0 10px 0 10px;
+    margin: 10px 10px 0 10px;
 }
 
 .card-image {
     height: 15vh;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-container {
+    margin: 10px 10px 0 10px;
+}
+
+.card-nav {
+    font-size: 10px;
+    font-weight: 700;
+    font-family: 'Arima', sans-serif;
+    text-align: justify;
+    list-style-position: inside;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.card-nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: black;
 }
 
 .card-title2 {
@@ -72,7 +96,13 @@
 }
 
 .img-mastite {
-    width: 60%;
+    width: 40%;
+    float: right;
+    margin-left: 15px;
+}
+
+.mastite-container {
+    max-width: 600px;
 }
 
 .img-mito {

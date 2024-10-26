@@ -8,14 +8,45 @@ import mito from '../../assets/mito.jpg';
 const Card: React.FC = () => {
   return (
     <>
-      <div className='card'>
-        <section className='card-section'>
-          <div className="card-container">
-            <img className='card-image' src={Fundo} alt="Imagem de fundo" />
-          </div>
-        </section>
 
-        <section className='card-section2'>
+      <section className='card-section'>
+        <div className="card-container">
+          <img className='card-image' src={Fundo} alt="Imagem de fundo" />
+        </div>
+      </section>
+
+
+      <div className='card'>
+        <nav className='card-nav'>
+          <ul>
+            <li>
+              <a href="#am">O QUE É O ALEITAMENTO MATERNO</a>
+            </li>
+            <li>
+              <a href="#am2">QUAIS SÃO OS PRINCIPAIS TIPOS DE ALEITAMENTO MATERNO?</a>
+            </li>
+            <li>
+              <a href="#am3">BENEFÍCIOS DO ALEITAMENTO MATERNO</a>
+            </li>
+            <li>
+              <a href="#am4">FASES DO LEITE MATERNO</a>
+            </li>
+            <li>
+              <a href="#am5">COMO FAZER A PEGA CORRETA?</a>
+            </li>
+            <li>
+              <a href="#am6">COMPLICAÇÕES MATERNAS DA AMAMENTAÇÃO</a>
+            </li>
+            <li>
+              <a href="#am7">QUANDO É CONTRA INDICADO O ALEITAMENTO MATERNO</a>
+            </li>
+            <li>
+              <a href="#am8">MITOS SOBRE O ALEITAMENTO MATERNO</a>
+            </li>
+          </ul>
+        </nav>
+
+        <section className='card-section2' id='am'>
           <h1 className='card-title2'>O QUE É O ALEITAMENTO MATERNO</h1>
 
           <p className='card-p'>Amamentar vai além de nutrir a criança; é uma interação profunda entre mãe e filho, que impacta o estado nutricional da criança, sua capacidade de combater infecções, sua fisiologia, desenvolvimento cognitivo e emocional, além de influenciar sua saúde a longo prazo. Também traz benefícios para a saúde física e mental da mãe.</p>
@@ -23,7 +54,7 @@ const Card: React.FC = () => {
           <p className='card-p'>A amamentação é uma das principais prioridades do Governo Federal. O Ministério da Saúde orienta que os bebês sejam amamentados até os dois anos de idade ou mais, sendo que, nos primeiros seis meses, devem receber exclusivamente leite materno, sem a necessidade de oferecer sucos, chás, água ou outros alimentos. Quanto mais tempo o bebê for amamentado, melhor para ele e para a mãe. Após os seis meses, a amamentação deve ser complementada com alimentos saudáveis e de acordo com os hábitos da família, mas sem interromper o aleitamento.</p>
         </section>
 
-        <section className='card-section2'>
+        <section className='card-section2' id='am2'>
           <h1 className='card-title2'>QUAIS SÃO OS PRINCIPAIS TIPOS DE ALEITAMENTO MATERNO?</h1>
           <ul className='card-list'>
             <li>
@@ -48,7 +79,7 @@ const Card: React.FC = () => {
         </section>
 
 
-        <section className='card-section2'>
+        <section className='card-section2' id='am3'>
           <h1 className='card-title2'>BENEFÍCIOS DO ALEITAMENTO MATERNO</h1>
           <div>
             <p className='card-p'>No AM há benefícios fundamentais para a saúde do recém nascido e também para o corpo da mãe enquanto amamenta, sendo de curto e longo prazo para ambos.</p>
@@ -110,7 +141,7 @@ const Card: React.FC = () => {
           </p>
         </section>
 
-        <section className='card-section2'>
+        <section className='card-section2' id='am4'>
           <h1 className='card-title2'>FASES DO LEITE MATERNO</h1>
           <h2 className='card-title3'><b>Colostro</b></h2>
           <p className='card-p'>O colostro constitui o primeiro leite com o qual o recém-nascido entra em contato ao realizar a sucção nas mamas da mãe. Trata-se de um líquido de coloração amarelada e consistência viscosa, presente nos alvéolos mamários desde o último trimestre da gestação até os primeiros dias do período pós-parto. Geralmente, a "descida do leite" ocorre dentro de até 30 horas após o parto. (SANTOS., <em>et al</em>, 2017)
@@ -129,7 +160,7 @@ const Card: React.FC = () => {
           </p>
         </section>
 
-        <section className='card-section2'>
+        <section className='card-section2' id='am5'>
           <h1 className='card-title2'>COMO FAZER A PEGA CORRETA?</h1>
 
           <p className='card-p'>Amamentar não deve causar dor. No início, pode haver algum desconforto até que mãe e bebê se adaptem. A amamentação deve ser prazerosa para ambos.
@@ -187,12 +218,17 @@ const Card: React.FC = () => {
           </div>
         </section>
 
-        <section className='card-section2'>
+        <section className='card-section2' id='am6'>
           <h1 className='card-title2'>COMPLICAÇÕES MATERNAS DA AMAMENTAÇÃO</h1>
           <h2 className='card-title3'>Ingurgitamento da mama</h2>
-          <p className='card-p'>
-            O ingurgitamento mamário, popularmente conhecido como leite empedrado, é o acúmulo excessivo de leite nas mamas, causando dor, rigidez, vermelhidão e aumento do volume. Essa condição, comum nos estágios iniciais da lactação, ocorre geralmente nos primeiros dias após o nascimento do bebê. É frequentemente resultado de técnicas incorretas de amamentação, sucção ineficaz do bebê ou uso de suplementos para aumentar a produção de leite, levando a um enchimento excessivo e doloroso dos seios. (LEAL., <em>et al</em>, 2022)
-          </p>
+          <div className='mastite-container'>
+            <img className='img-mastite' src={mastite} alt="" />
+            <p className="card-p pteste">
+              O ingurgitamento mamário, popularmente conhecido como leite empedrado, é o acúmulo excessivo de leite nas mamas, causando dor, rigidez, vermelhidão e aumento do volume. Essa condição, comum nos estágios iniciais da lactação, ocorre geralmente nos primeiros dias após o nascimento do bebê. É frequentemente resultado de técnicas incorretas de amamentação, sucção ineficaz do bebê ou uso de suplementos para aumentar a produção de leite, levando a um enchimento excessivo e doloroso dos seios. (LEAL., <em>et al</em>, 2022)
+            </p>
+          </div>
+
+
           <p className='card-p'>
             É fundamental distinguir entre o ingurgitamento fisiológico e o patológico. O ingurgitamento fisiológico é discreto e indica que o leite está descendo, não necessitando de intervenção. Por outro lado, o ingurgitamento patológico se caracteriza por uma distensão tecidual excessiva, causando intenso desconforto, muitas vezes acompanhado de febre e mal-estar. Nessa situação, a mama aumenta de tamanho, torna-se dolorosa e apresenta áreas avermelhadas, edemaciadas e brilhantes. Os mamilos podem ficar achatados, dificultando a pega do bebê, e o leite, frequentemente, não flui com facilidade. Essa condição costuma ocorrer entre o terceiro e o quinto dia após o parto e está geralmente associada a fatores como o início tardio da amamentação, mamadas infrequentes, restrições na duração e frequência das mamadas, uso de suplementos e sucção ineficaz do bebê.  (LEAL., <em>et al</em>, 2022)
           </p>
@@ -233,14 +269,14 @@ const Card: React.FC = () => {
 
           <h2 className='card-title3'>Ansiedade</h2>
           <p className='card-p'>
-            A falta de experiência com a amamentação, juntamente com a dificuldade em segurar o bebê e garantir que ele abocanhe corretamente o seio e sugue de forma eficaz, pode levar a sentimentos de ansiedade, frustração e inadequação nas mães. A fadiga e a incerteza sobre se o bebê está recebendo uma quantidade suficiente de leite também contribuem para esse estresse. Além disso, as alterações físicas que ocorrem após o parto, como dor nos mamilos, ingurgitamento mamário e mastite, podem intensificar esses sentimentos. ( ABUCHAIM., <em>et al</em>, 2023)
+            A falta de experiência com a amamentação, juntamente com a dificuldade em segurar o bebê e garantir que ele abocanhe corretamente o seio e sugue de forma eficaz, pode levar a sentimentos de ansiedade, frustração e inadequação nas mães. A fadiga e a incerteza sobre se o bebê está recebendo uma quantidade suficiente de leite também contribuem para esse estresse. Além disso, as alterações físicas que ocorrem após o parto, como dor nos mamilos, ingurgitamento mamário e mastite, podem intensificar esses sentimentos. (ABUCHAIM., <em>et al</em>, 2023)
           </p>
           <p className='card-p'>
-            Esses fatores emocionais e físicos são algumas das razões mais comuns que levam as mães a interromper a amamentação. É importante reconhecer que o apoio emocional, a orientação prática e a educação sobre a amamentação podem ajudar a superar essas dificuldades. O suporte de profissionais de saúde, grupos de apoio e a troca de experiências com outras mães podem oferecer a assistência necessária para melhorar a confiança das mães, facilitar a amamentação e, assim, incentivar a continuidade desse importante vínculo entre mãe e bebê. ( ABUCHAIM., <em>et al</em>, 2023)
+            Esses fatores emocionais e físicos são algumas das razões mais comuns que levam as mães a interromper a amamentação. É importante reconhecer que o apoio emocional, a orientação prática e a educação sobre a amamentação podem ajudar a superar essas dificuldades. O suporte de profissionais de saúde, grupos de apoio e a troca de experiências com outras mães podem oferecer a assistência necessária para melhorar a confiança das mães, facilitar a amamentação e, assim, incentivar a continuidade desse importante vínculo entre mãe e bebê. (ABUCHAIM., <em>et al</em>, 2023)
           </p>
         </section>
 
-        <section className='card-section2'>
+        <section className='card-section2' id='am7'>
           <h1 className='card-title2'>QUANDO É CONTRA INDICADO O ALEITAMENTO MATERNO</h1>
           <ul className='card-list'>
             <li>Mães com HIV;</li>
@@ -267,7 +303,7 @@ const Card: React.FC = () => {
           </ul>
         </section>
 
-        <section className='card-section2'>
+        <section className='card-section2' id='am8'>
           <h1 className='card-title2'>MITOS SOBRE O ALEITAMENTO MATERNO</h1>
           <ul className='card-list1'>
             <li><img className='img-mito' src={mito} alt="mito" /><b>Crença na produção de leite insuficiente:</b> Biologicamente, as mães produzem leite suficiente para atender à demanda de seus filhos. A insegurança sobre essa capacidade pode levar algumas mães a introduzirem outros alimentos sem buscar orientação profissional, comprometendo o aleitamento materno exclusivo e seus benefícios para mãe e bebê.</li>
@@ -279,7 +315,9 @@ const Card: React.FC = () => {
             <li><img className='img-mito' src={mito} alt="mito" /><b>O leite materno pode ser fraco para o bebê:</b> Não existe leite materno fraco. Sua composição é praticamente a mesma para todas as mulheres que amamentam, sendo o alimento ideal para o bebê. Ele deve ser exclusivo até o sexto mês de vida e complementar até dois anos ou mais.</li>
             <li><img className='img-mito' src={mito} alt="mito" /><b>Compressa de água quente ajuda com o leite empedrado:</b> O tratamento recomendado para leite empedrado é fazer massagem e ordenha. Compressas quentes podem piorar a situação, aumentando o leite retido nas mamas e intensificando o problema.</li>
           </ul>
+        </section>
 
+        <section className='card-section2'>
         </section>
 
       </div>

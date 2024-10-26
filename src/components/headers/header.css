@@ -9,7 +9,6 @@
     align-items: center; /* Centraliza verticalmente */
     padding: 0px;
     background-color: #DAADC2;
-    margin-bottom: 15px;
     background: linear-gradient(90deg, #daadc2, #c17f96);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
