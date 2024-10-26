@@ -1,8 +1,9 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import './referencia.css';
 
 
 const Referencias: React.FC = () => {
+
     return (
         <section className='card'>
             <h1 className='card-title2'>REFERÊNCIAS</h1>

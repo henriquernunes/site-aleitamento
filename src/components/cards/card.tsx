@@ -18,6 +18,7 @@ const Card: React.FC = () => {
 
   const handleClick = () => {
     navigate('/referencias');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   const toggleDiscentes = () => {

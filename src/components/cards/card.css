@@ -137,7 +137,7 @@ html {
 .extras {
     text-align: center;
     margin-top: 20px;
-  }
+}
 
 .yy a {
     color: black;
@@ -167,20 +167,27 @@ html {
 
 
 .buttons-container {
-    display: inline-block; /* Mantém os botões em linha */
-    text-align: center; /* Centraliza o contêiner */
-    margin: 0 auto; /* Garante que o contêiner esteja centralizado */
+    display: inline-block;
+    /* Mantém os botões em linha */
+    text-align: center;
+    /* Centraliza o contêiner */
+    margin: 0 auto;
+    /* Garante que o contêiner esteja centralizado */
     width: 90%;
-  }
-  
-  .button-content {
-    display: inline-block; /* Garante que cada botão esteja em linha */
-    margin: 0 10px; /* Espaço entre os botões */
-    width: 90%; /* Largura fixa para consistência */
-  }
-  
-  .xx {
+}
+
+.button-content {
+    display: inline-block;
+    /* Garante que cada botão esteja em linha */
+    margin: 0 10px;
+    /* Espaço entre os botões */
+    width: 90%;
+    /* Largura fixa para consistência */
+}
+
+.xx {
     background-color: #c17f96;
+    color: black;
     border: 1px solid #000;
     padding: 5px 10px;
     cursor: pointer;
@@ -192,13 +199,25 @@ html {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-  }
+}
 
-  .xx1 {
+.xx:hover {
+    transform: scale(1.05);
+}
+
+.xx:visited {
+    color: black;
+}
+
+.xx:active {
+    color: black;
+}
+
+.xx1 {
     margin-top: 20px;
-  }
-  
-  .yy {
+}
+
+.yy {
     list-style-type: none;
     padding: 0;
     margin: 10px auto;
@@ -209,11 +228,11 @@ html {
     text-align: justify;
     font-family: 'Arima', sans-serif;
     hyphens: auto;
-  }
-  
-  .yy li {
+}
+
+.yy li {
     margin-bottom: 10px;
     line-height: 1.5;
     text-align: center;
     display: block;
-  }
+}
