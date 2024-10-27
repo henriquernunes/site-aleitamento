@@ -301,7 +301,7 @@ html {
   }
 
   .social-media h2 {
-    font-size: 18px;
+    font-size: 16px;
     font-family: 'Arima', sans-serif;
     margin: 0 auto; /* Centraliza horizontalmente */
     color: white;
@@ -327,7 +327,7 @@ html {
   }
   
   .instagram span {
-    font-size: 18px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-size: 16px; /* Ajuste o tamanho da fonte conforme necessário */
     color: #daadc2; /* Cor do texto */
     font-family: 'Arima', sans-serif; /* Ajuste a fonte conforme desejado */
     font-weight: 700;
