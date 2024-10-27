@@ -419,7 +419,7 @@ const Card: React.FC = () => {
 
         <section>
           <div className="livros" style={{ marginBottom: 0 }}>
-            <h1 className='card-title3' style={{ fontSize: 22, marginBottom: 25 }}>Confira nossos trabalhos publicados</h1>
+            <h1 className='card-title3' style={{ fontSize: 20, marginBottom: 25 }}>Confira nossos trabalhos publicados</h1>
             <a href="https://www.reflexaoacademica.com.br/assets/ebooks/Y4Pus2n6e63U7OB1a1VxZ5NW39r0F7po.pdf" target="_blank" rel="noopener noreferrer">
               <div className="livros-content">
                 <img src={sistemaimu} alt="Livro" className="livro-logo" />
