@@ -8,6 +8,10 @@ import ducto from '../../assets/ducto.jpg';
 import ansiedade from '../../assets/ansiedade.jpg';
 import ingurjitamento from '../../assets/ingurjitamento.jpg';
 import mito from '../../assets/mito.jpg';
+import sistemaimu from '../../assets/sistemaimu.jpg';
+import multidis from '../../assets/multidis.png';
+import { FaInstagram } from 'react-icons/fa';
+
 
 
 const Card: React.FC = () => {
@@ -363,55 +367,88 @@ const Card: React.FC = () => {
             <button className='card-title2 referencia' onClick={handleClick}>REFERÊNCIAS, clique aqui</button>
           </div>
         </section>
-      
 
-      <section className="extras">
-        <div className="buttons-container">
-          <div className="button-content">
-            <button className="xx" onClick={toggleDiscentes}>
-              DISCENTES:
-            </button>
-            {isDiscentesOpen && (
-              <ul className="yy">
-                <li>
-                  <b>Alanis Vitória Ribeiro da Silva</b><br />
-                  <a href="https://orcid.org/0009-0002-9692-1252">https://orcid.org/0009-0002-9692-1252</a>
-                </li>
-                <li>
-                  <b>Michelly Araújo</b><br />
-                  <a href="http://lattes.cnpq.br/4902150032061030">http://lattes.cnpq.br/4902150032061030</a>
-                </li>
-                <li>
-                  <b>Pedro Henrique Resende Rodrigues</b><br />
-                  <a href="http://lattes.cnpq.br/5665982111339469">http://lattes.cnpq.br/5665982111339469</a>
-                </li>
-                <li>
-                  <b>Quésia Costa Grapiúna</b><br />
-                  <a href="http://lattes.cnpq.br/9087099641404324">http://lattes.cnpq.br/9087099641404324</a>
-                </li>
-                <li>
-                  <b>Victoria Vieira Oliveira Silva</b><br />
-                  <a href="https://orcid.org/0009-0008-1507-7541">https://orcid.org/0009-0008-1507-7541</a>
-                </li>
-              </ul>
-            )}
+
+        <section className="extras">
+          <div className="buttons-container">
+            <div className="button-content">
+              <button className="xx" onClick={toggleDiscentes}>
+                DISCENTES:
+              </button>
+              {isDiscentesOpen && (
+                <ul className="yy">
+                  <li>
+                    <b>Alanis Vitória Ribeiro da Silva</b><br />
+                    <a href="https://orcid.org/0009-0002-9692-1252">https://orcid.org/0009-0002-9692-1252</a>
+                  </li>
+                  <li>
+                    <b>Michelly Araújo</b><br />
+                    <a href="http://lattes.cnpq.br/4902150032061030">http://lattes.cnpq.br/4902150032061030</a>
+                  </li>
+                  <li>
+                    <b>Pedro Henrique Resende Rodrigues</b><br />
+                    <a href="http://lattes.cnpq.br/5665982111339469">http://lattes.cnpq.br/5665982111339469</a>
+                  </li>
+                  <li>
+                    <b>Quésia Costa Grapiúna</b><br />
+                    <a href="http://lattes.cnpq.br/9087099641404324">http://lattes.cnpq.br/9087099641404324</a>
+                  </li>
+                  <li>
+                    <b>Victoria Vieira Oliveira Silva</b><br />
+                    <a href="https://orcid.org/0009-0008-1507-7541">https://orcid.org/0009-0008-1507-7541</a>
+                  </li>
+                </ul>
+              )}
+            </div>
+
+            <div className="button-content">
+              <button className="xx xx1" onClick={toggleDocente}>
+                DOCENTE:
+              </button>
+              {isDocenteOpen && (
+                <ul className="yy">
+                  <li>
+                    <b>Renan Andrews Ribeiro Sousa</b><br />
+                    <a href="http://lattes.cnpq.br/5872370605309780">http://lattes.cnpq.br/5872370605309780</a>
+                  </li>
+                </ul>
+              )}
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="livros" style={{ marginBottom: 0 }}>
+            <h1 className='card-title3' style={{ fontSize: 22, marginBottom: 25 }}>Confira nossos trabalhos publicados</h1>
+            <a href="https://www.reflexaoacademica.com.br/assets/ebooks/Y4Pus2n6e63U7OB1a1VxZ5NW39r0F7po.pdf" target="_blank" rel="noopener noreferrer">
+              <div className="livros-content">
+                <img src={sistemaimu} alt="Livro" className="livro-logo" />
+                <h2>Sistema imunológico e doenças autoimunes (Capítulo IX)</h2>
+              </div>
+            </a>
           </div>
 
-          <div className="button-content">
-            <button className="xx xx1" onClick={toggleDocente}>
-              DOCENTE:
-            </button>
-            {isDocenteOpen && (
-              <ul className="yy">
-                <li>
-                  <b>Renan Andrews Ribeiro Sousa</b><br />
-                  <a href="http://lattes.cnpq.br/5872370605309780">http://lattes.cnpq.br/5872370605309780</a>
-                </li>
-              </ul>
-            )}
+          <div className="livros" style={{ marginTop: 0 }}>
+            <a href="http://www.editoraneurus.com.br/multidisciplinariedade-em-saude-reabilitacao-fisioterapeutica-abordagens-psicologicas-e-inovacoes-tecnologicas" target="_blank" rel="noopener noreferrer">
+              <div className="livros-content">
+                <img src={multidis} alt="Livro" className="livro-logo" />
+                <h2>Multidisciplinariedade em saúde (Capítulo IV)</h2>
+              </div>
+            </a>
           </div>
-        </div>
-      </section>
+        </section>
+
+        <section>
+          <div className="social-media">
+            <a href="https://www.instagram.com/enfermagem_g5?igsh=MXFxaXJudGszbXIzdg%3D%3D">
+              <h2>Acompanhe nossa rede social</h2>
+              <div className="instagram">
+                <FaInstagram className='icon' />
+                <span>@enfermagem_g5</span>
+              </div>
+            </a>
+          </div>
+        </section>
 
       </div>
 
