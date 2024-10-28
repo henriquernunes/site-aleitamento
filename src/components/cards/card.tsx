@@ -120,7 +120,7 @@ const Card: React.FC = () => {
           <h2 className='card-title3'><b>Para o Recém Nascido</b></h2>
           <ul className='card-list'>
             <li>
-              Diminui risco de alergias, hipertensão, colesterol alto, obesidade, diabetes, diarreia, infecções respiratórias e mortalidade infantil
+              Diminui risco de alergias, hipertensão, colesterol alto, obesidade, diabetes, diarreia, infecções respiratórias e mortalidade infantil.
             </li>
           </ul>
           <p className='card-p'>
@@ -132,7 +132,7 @@ const Card: React.FC = () => {
             </li>
           </ul>
           <p className='card-p'>
-            Leite materno possui todos os nutrientes necessários, como proteínas, gorduras, vitaminas e minerais, na proporção ideal para o desenvolvimento físico e cognitivo saudável do bebê, contribuindo para seu crescimento de maneira equilibrada. (Ministério da Saúde, 2019)
+            O leite materno possui todos os nutrientes necessários, como proteínas, gorduras, vitaminas e minerais, na proporção ideal para o desenvolvimento físico e cognitivo saudável do bebê, contribuindo para seu crescimento de maneira equilibrada. (Ministério da Saúde, 2019)
           </p>
           <ul className='card-list'>
             <li>
@@ -152,44 +152,44 @@ const Card: React.FC = () => {
           </p>
 
           <h2 className='card-title3'><b>Para a Mãe</b></h2>
-          <p className='card-p'>O amamentar ajuda a prevenir doenças como câncer de mama, ovário, útero e diabetes tipo 2. Apenas nos primeiros 6 meses pode aumentar o tempo entre as gestações, e quanto mais tempo a mulher amamenta, maiores os benefícios para sua saúde. Além disso, amamentar também faz bem para a saúde mental, aumentando a autoestima e confiança, o que fortalece o bem-estar da mulher.
-          </p>
-          <p className='card-p'>
-            Amamentar ajuda a regular o metabolismo da mãe e a manter o peso saudável após o parto, o que contribui para a prevenção dessas condições como hipertensão, obesidade e diabetes tipo 2.
-          </p>
-          <p className='card-p'>
-            Estimula a liberação de ocitocina, um hormônio que ajuda a reduzir o estresse e promove sentimentos de bem-estar, o que pode diminuir o risco de depressão pós-parto. Além disso, o ato de amamentar promove o contato pele a pele, que fortalece o vínculo emocional entre a mãe e o bebê, ajudando a melhorar o estado emocional da mãe, diminuindo assim as chances de depressão pós-parto;
-          </p>
-          <p className='card-p'>
-            Auxilia na recuperação pós-parto e diminui as chances de hemorragia quando a ocitocina é liberada durante a amamentação, ajudando o útero a se contrair, o que facilita a sua recuperação e diminui o risco de hemorragias após o parto. Isso acelera o processo de recuperação física da mãe.
-          </p>
-          <p className='card-p'>
-            Promove o vínculo afetivo através do contato próximo e o tempo dedicado ao aleitamento. São momentos que promovem intimidade e segurança tanto para a mãe quanto para o recém nascido.
-          </p>
-          <p className='card-p'>
-            Ajuda a espaçar as gestações: Mulheres que amamentam exclusivamente e que ainda não menstruaram após o parto, com filhos menores de 6 meses, têm menos chances de engravidar. Esse método de evitar a gravidez é chamado de Método da Amenorreia Lactacional (LAM). Para usar esse método, a mulher deve receber orientação do seu médico.
-          </p>
-          <p className='card-p'>
-            Custo financeiro: Amamentar é muito mais econômico do que dar outros tipos de leite para a criança, pois o leite materno é produzido pela mãe para seu filho. Não precisa de preparo, o que economiza tempo, água e gás. Por outro lado, as fórmulas de leite industrializadas podem consumir uma parte significativa do orçamento da família. Além disso, não amamentar pode gerar custos extras, pois crianças que não são amamentadas costumam ficar doentes com mais frequência.
-          </p>
+          <ul className='card-list'>
+            <li style={{ marginBottom: 10 }}>
+              O amamentar ajuda a prevenir doenças como câncer de mama, ovário e útero,  diabetes tipo 2, hipertensão e obesidade. Apenas nos primeiros 6 meses pode aumentar o tempo entre as gestações, e quanto mais tempo a mulher amamenta, maiores os benefícios para sua saúde. Além disso, amamentar também faz bem para a saúde mental, aumentando a autoestima e confiança, o que fortalece o bem-estar da mulher. Ajuda a regular o metabolismo e manter o peso saudável após o parto.
+            </li>
+            <li style={{ marginBottom: 10 }}>
+              Estimula a liberação de ocitocina, um hormônio que ajuda a reduzir o estresse e promove sentimentos de bem-estar, o que pode diminuir o risco de depressão pós-parto. Além disso, o ato de amamentar promove o contato pele a pele, que fortalece o vínculo emocional entre a mãe e o bebê, ajudando a melhorar o estado emocional da mãe, diminuindo assim as chances de depressão pós-parto;
+            </li>
+            <li style={{ marginBottom: 10 }}>
+              Auxilia na recuperação pós-parto e diminui as chances de hemorragia quando a ocitocina é liberada durante a amamentação, ajudando o útero a se contrair, o que facilita a sua recuperação e diminui o risco de hemorragias após o parto. Isso acelera o processo de recuperação física da mãe.
+            </li>
+            <li style={{ marginBottom: 10 }}>
+              Promove o vínculo afetivo através do contato próximo e o tempo dedicado ao aleitamento. São momentos que promovem intimidade e segurança tanto para a mãe quanto para o recém nascido.
+            </li>
+            <li style={{ marginBottom: 10 }}>
+              Ajuda a espaçar as gestações: Mulheres que amamentam exclusivamente e que ainda não menstruaram após o parto, com filhos menores de 6 meses, têm menos chances de engravidar. Esse método de evitar a gravidez é chamado de Método da Amenorreia Lactacional (LAM). Para usar esse método, a mulher deve receber orientação do seu médico.
+            </li>
+            <li style={{ marginBottom: 10 }}>
+              Custo financeiro: Amamentar é muito mais econômico do que dar outros tipos de leite para a criança, pois o leite materno é produzido pela mãe para seu filho. Não precisa de preparo, o que economiza tempo, água e gás. Por outro lado, as fórmulas de leite industrializadas podem consumir uma parte significativa do orçamento da família. Além disso, não amamentar pode gerar custos extras, pois crianças que não são amamentadas costumam ficar doentes com mais frequência.
+            </li>
+          </ul>
         </section>
 
         <section className='card-section2' id='am4'>
           <h1 className='card-title2'>FASES DO LEITE MATERNO</h1>
           <h2 className='card-title3'><b>Colostro</b></h2>
-          <p className='card-p'>O colostro constitui o primeiro leite com o qual o recém-nascido entra em contato ao realizar a sucção nas mamas da mãe. Trata-se de um líquido de coloração amarelada e consistência viscosa, presente nos alvéolos mamários desde o último trimestre da gestação até os primeiros dias do período pós-parto. Geralmente, a "descida do leite" ocorre dentro de até 30 horas após o parto. (SANTOS., <em>et al</em>, 2017)
+          <p className='card-p'>O colostro constitui o primeiro leite com o qual o recém-nascido entra em contato ao realizar a sucção nas mamas da mãe. Trata-se de um líquido de coloração amarelada e consistência viscosa, presente nos alvéolos mamários desde o último trimestre da gestação até os primeiros dias do período pós-parto. Geralmente, a "descida do leite" ocorre dentro de até 30 horas após o parto. (SANTOS., et al, 2017)
           </p>
-          <p className='card-p'>O colostro é produzido em quantidade limitada, porém é suficiente para nutrir e suprir as necessidades do neonato. Caracteriza-se por seu elevado teor proteico e pela presença de minerais importantes, como sódio, potássio e cloro, além de conter vitaminas lipossolúveis, tais como E, A e K. Além disso, é frequentemente descrito como uma "vacina natural", devido à sua riqueza em anticorpos transferidos verticalmente, desempenhando um papel essencial na imunidade do recém-nascido. (SANTOS., <em>et al</em>, 2017)
+          <p className='card-p'>O colostro é produzido em quantidade limitada, porém é suficiente para nutrir e suprir as necessidades do neonato. Caracteriza-se por seu elevado teor proteico e pela presença de minerais importantes, como sódio, potássio e cloro, além de conter vitaminas lipossolúveis, tais como E, A e K. Além disso, é frequentemente descrito como uma "vacina natural", devido à sua riqueza em anticorpos transferidos verticalmente, desempenhando um papel essencial na imunidade do recém-nascido. (SANTOS., et al, 2017)
           </p>
 
           <h2 className='card-title3'><b>Transição</b></h2>
           <p className='card-p'>
-            O leite de transição, que se manifesta entre o sétimo e o vigésimo primeiro dia após o parto, é também denominado apojadura ou "descida do leite". Durante essa fase, observa-se uma redução nas quantidades de minerais e proteínas, enquanto ocorre um aumento nos níveis de gordura e carboidratos, preparando gradualmente a composição do leite maduro. (FREITAS.,2019)
+            O leite de transição, que se manifesta entre o sexto e o décimo quinto dia após o parto, é também denominado apojadura ou "descida do leite". Durante essa fase, observa-se uma redução nas quantidades de minerais e proteínas, enquanto ocorre um aumento nos níveis de gordura e carboidratos, o leite fica mais denso e volumoso, preparando gradualmente a composição do leite maduro. (FREITAS.,2019)
           </p>
 
           <h2 className='card-title3'><b>Maduro</b></h2>
           <p className='card-p'>
-            O leite maduro apresenta um aspecto viscoso e uma coloração esbranquiçada, caracterizando-se por concentrações elevadas de proteínas, minerais e vitaminas lipossolúveis, especialmente como vitaminas A, E e carotenoides. Além disso, contém quantidades mínimas de lactose, gorduras e vitaminas do complexo B, que são essenciais para o desenvolvimento e crescimento do recém-nascido. Durante o período de lactação, a produção de leite pode aumentar conforme a necessidade do recém-nascido.
+            O leite maduro começa a ser produzido por volta do vigésimo quinto dia e apresenta um aspecto viscoso e uma coloração esbranquiçada, caracterizando-se por concentrações elevadas de proteínas, minerais e vitaminas lipossolúveis, especialmente como vitaminas A, E e carotenoides. Além disso, contém quantidades mínimas de lactose, gorduras e vitaminas do complexo B, que são essenciais para o desenvolvimento e crescimento do recém-nascido. Durante o período de lactação, a produção de leite pode aumentar conforme a necessidade do recém-nascido.
           </p>
         </section>
 
